@@ -8,7 +8,7 @@
 
 ### Video
 
-Per aprire i video, clcika sulla rispettiva foto.
+Per aprire un video, clicka sulla rispettiva anteprima.
 
 - **ACID Properties in Databases With Examples**
 
