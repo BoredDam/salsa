@@ -3,9 +3,17 @@
 ## PDF e appunti sfusi
 
 - BCNF, come si fa ed esempio di applicazione. [clicca qui](./PDFs/BCNF%20con%20esempio.pdf)
+- Come valutare le ridondanze all'interno di un database. [clicca qui](./PDFs/Valutare_ridondanze_con_esempio.pdf)
 
 ## Link Utili
 
+### Tools
+
+- **Per disegnare diagrammi** ER e progettare database.
+
+https://app.diagrams.net/
+
+- **Convertire codice SQL in diagrammi UML**.
 ### Video
 
 Per aprire un video, clicka sulla rispettiva anteprima.
