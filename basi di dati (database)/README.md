@@ -1,7 +1,8 @@
 # Basi di Dati
 
-## PDF e appunti sfusi
+## PDF, MD e appunti sfusi
 
+- Esercizi (svolti e non) di algebra relazionale. [clicca qui](./MDs/algebra-relazionale.md)
 - BCNF, come si fa ed esempio di applicazione. [clicca qui](./PDFs/BCNF%20con%20esempio.pdf)
 - Come valutare le ridondanze all'interno di un database. [clicca qui](./PDFs/Valutare_ridondanze_con_esempio.pdf)
 
