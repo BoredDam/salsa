@@ -6,14 +6,18 @@
 > Abbiamo una molla. Alla fine della molla c'è un punto materiale di massa $m$. All'inizio del moto, il punto è in posizione $x \neq \text{posizione di equilibrio}$. La costante elastica della molla è $K = 28400 \frac{N}{m}$. Il punto $X = 0.1 m$ dall'origine e la massa $m = 1000 kg$.
 
 ### 1.1 Calcola la legge oraria
-Sul punto materiale agisce una forza pari a 
+Sul punto materiale agisce una forza pari a
+
 $$
 F = -k \Delta x
-\\
+$$
+$$
 ma = -k\Delta x
-\\
+$$
+$$
 x''(t) = -\frac{k}{m}x(t) = -\omega^2 x(t) \implies
-\\
+$$
+$$
 \implies \omega = \sqrt{\frac{k}{m}}
 $$
 
@@ -82,12 +86,19 @@ Poniamo il sistema di riferimento sul punto materiale. Le forze che agiscono sul
 Poniamo la somma delle forze uguale a zero, in quanto il sistema è in equilibrio.
 
 $$
-ma = - mg - kx = 0 \\
-- mg = kx \\ 
+ma = - mg - kx = 0
+$$
+
+$$
+-mg = kx
+$$ 
+
+$$
 -\frac{mg}{k} = x
 $$
 
 La domanda chiede l'elungazione della molla, quindi prendiamo il valore assoluto 
+
 $$
 x = \left| -\frac{mg}{k}\right| =\frac{mg}{k}
 $$
@@ -95,22 +106,26 @@ $$
 ### 2.2 Energia potenziale elastica della molla
 
 $$
-U_\text{elastica} = \frac{1}{2}k(\Delta x)^2 \\
+U_\text{elastica} = \frac{1}{2}k(\Delta x)^2
+$$
 
-\implies U_\text{elastica} = \frac{1}{2}k \left(\frac{mg}{k}\right)^2 \\
+$$
+\implies U_\text{elastica} = \frac{1}{2}k \left(\frac{mg}{k}\right)^2
+$$
 
+$$
 \implies U_\text{elastica} = \frac{m^2g^2}{2k}
 $$
 
 ### 2.3 Frequenza dell'oscillazione
 
 $$
-\omega^2 = \frac{k}{m} \\
-\omega = \sqrt{\frac{k}{m}}
+\omega^2 = \frac{k}{m}
 $$
 
-
-
+$$
+\omega = \sqrt{\frac{k}{m}}
+$$
 
 ## Problema 3 - Velocità di fuga dai corpi
 
@@ -121,6 +136,7 @@ F_\text{grav} = - G\frac{M m}{r^2}
 $$
 
 l'energia potenziale gravitazionale è pari a 
+
 $$
 U_\text{grav} = - G\frac{M m}{r} 
 $$
@@ -136,28 +152,40 @@ $$
 > Un satellite va a $v_0$ vicino al pianeta Terra di massa $M_T$. Il punto più vicino alla Terra della traiettoria di questo satellite è a distanza $d_1$. La massa del satellite è $m = 2560$, la velocità a cui viaggia è $v_0 = 5432 m/s$.
 
 $$
-E_m(d_0) = \frac{1}{2}mv_0^2 - G\frac{M_T m}{d_0} \qquad \text{poniamo} \quad d_0 >> R\\
-= \frac{1}{2}mv_0^2 \qquad \qquad \qquad\\
+E_m(d_0) = \frac{1}{2}mv_0^2 - G\frac{M_T m}{d_0} \qquad \text{poniamo} \quad d_0 >> R
+$$
 
+$$
+= \frac{1}{2}mv_0^2 \qquad \qquad \qquad
+$$
 
+$$
 E_m(d_1) = \frac{1}{2}mv^2 -G \frac{M_Tm}{d_0} = \frac{1}{2}mv_0^2
 $$
 
 Arriviamo quindi a dire
 
 $$
-\frac{1}{2}mv^2 = \frac{1}{2}mv_0^2 + G \frac{M_Tm}{d_0}\\
-\frac{1}{2}v^2 = \frac{1}{2}v_0^2 + G \frac{M_T}{d_0}\\
-v^2 = v_0^2
+\frac{1}{2}mv^2 = \frac{1}{2}mv_0^2 + G \frac{M_Tm}{d_0}
 $$
 
+$$
+\frac{1}{2}v^2 = \frac{1}{2}v_0^2 + G \frac{M_T}{d_0}
+$$
+
+$$
+v^2 = v_0^2
+$$
 
 ## Problema 5
 
 > Stima l'energia potenziale gravitazionale media, sapendo la distanza media tra due stelle. Le due stelle hanno massa $M = 30 M_\odot$.
 
 $$
-U = -G\frac{M_1M_2}{r} = -G\frac{M^2}{r} \\
+U = -G\frac{M_1M_2}{r} = -G\frac{M^2}{r}
+$$
+
+$$
 \langle U \rangle = -\langle\frac{GM^2}{r} \rangle \approx -\frac{GM^2}{\langle r\rangle} = -\frac{GM^2}{r_\text{media}} 
 $$
 
@@ -225,39 +253,48 @@ $$
 \begin{cases}
 mv = mv_f + MV_f\\
 \frac{1}{2}mv^2 = \frac{1}{2}mv_f^2 + \frac{1}{2}MV_f^2
-\end{cases}\\
+\end{cases}
+$$
 
-\\
+$$
 \begin{cases}
 mv = mv_f + MV_f\\
 mv^2 = mv_f^2 + MV_f^2
 \end{cases}
+$$
 
-\\
 [...]
-\\
 
-v_f^2 - v^2 + \frac{m}{M}v_f^2 + \frac{m}{M}v^2 -2\frac{m}{M}vv_f = 0 \\
+$$
+v_f^2 - v^2 + \frac{m}{M}v_f^2 + \frac{m}{M}v^2 -2\frac{m}{M}vv_f = 0
+$$
 
-v_f^2(1 + \frac{m}{M}) - \frac{2mv}{M}v_f + v^2(\frac{m}{M} - 1) = 0 \\
+$$
+v_f^2(1 + \frac{m}{M}) - \frac{2mv}{M}v_f + v^2(\frac{m}{M} - 1) = 0
+$$
 
-v_f^2(M + m) -2mvv_f + v^2(m-M) = 0 \\
+$$
+v_f^2(M + m) -2mvv_f + v^2(m-M) = 0
+$$
 
-\text{ricordiamo che $v$ è fissato} \\
-\quad
-\\
+$$
+\text{ricordiamo che $v$ è fissato}
+$$
 
-v_{f_{1,2}} = \frac{2mv \pm \sqrt{4m^2v^2 - 4(m^2-M^2)v^2}}{2(M+m)} \\
-\quad
-\\
-v_{f_{1,2}} = \frac{2mv \pm 2MV}{2(M+m)} \\
+$$
+v_{f_{1,2}} = \frac{2mv \pm \sqrt{4m^2v^2 - 4(m^2-M^2)v^2}}{2(M+m)}
+$$
 
+$$
+v_{f_{1,2}} = \frac{2mv \pm 2MV}{2(M+m)}
+$$
 
+$$
 v_{f_{1}} = \frac{2mv + 2mV}{2(M+m)} \quad \text{velocità se l'urto non avviene (in quanto uguale a $v$)}\\
+$$
 
-
-
-v_{f_{2}} = \frac{2mv - 2mV}{2(M+m)} \text{velocità se l'urto avviene}\\
+$$
+v_{f_{2}} = \frac{2mv - 2mV}{2(M+m)} \text{velocità se l'urto avviene}
 $$
 
 notiamo che se le masse sono uguali, la velocità si trasferisce totalmente sull'altro corpo.
