@@ -131,6 +131,10 @@ $$
 
 > Dato un corpo di massa $M = 1.2 M_{\odot}$ e raggio $R = 10 km$. Trovare la velocità di fuga.
 
+>> *La velocità di fuga è la velocità per cui un punto materiale arriva a distanza infinita dal corpo di massa $M$ a velocità nulla*. 
+
+Poniamo come condizione la **conservazione dell'energia meccanica**, quindi $E_m(t=0) = E_m(t=t_f)$.
+
 $$
 F_\text{grav} = - G\frac{M m}{r^2} 
 $$
